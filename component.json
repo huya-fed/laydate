@@ -1,0 +1,6 @@
+{
+    "repos": "https://github.com/huya-fed/laydate.git",
+    "version": "v1.0.0",
+    "name": "laydate",
+    "main": "laydate.js"
+}
