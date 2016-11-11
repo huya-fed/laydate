@@ -25,7 +25,7 @@ var as = ['laydate_box', 'laydate_void', 'laydate_click', 'LayDateSkin', 'skins/
 
 
 //主接口
-win.laydate = function(options){
+laydate = function(options){
     options = options || {};
     //获取调用的event;
     try{
@@ -37,6 +37,8 @@ win.laydate = function(options){
 };
 
 laydate.v = '1.1';
+
+module.exports = laydate;
 
 //获取组件存放路径
 /*Dates.getPath = (function(){
