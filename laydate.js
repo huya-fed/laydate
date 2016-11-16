@@ -25,7 +25,7 @@ var as = ['laydate_box', 'laydate_void', 'laydate_click', 'LayDateSkin', 'skins/
 
 
 //主接口
-laydate = function(options){
+var laydate = function(options){
     options = options || {};
     //获取调用的event;
     try{
