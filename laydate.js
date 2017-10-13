@@ -198,7 +198,7 @@ Dates.run = function(options){
         });
     }
 
-    chgSkin(options.skin || config.skin)
+    //chgSkin(options.skin || config.skin)
 };
 
 Dates.scroll = function(type){
